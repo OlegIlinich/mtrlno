@@ -1,0 +1,33 @@
+/* Global styles*/
+body {
+	background-image: url('fon.jpg'); 
+ font-family:Arial,Helvetica; font-size:90%}
+h1 {color:#191970; text-align:center} 
+h2 {color:#191970; text-align:center}
+ /*Layout*/
+ .header {}
+ .content {}
+ .leftside {float:left; width:10%}
+ .main {color:#191970; float:right; width:85%}
+ .footer {position: fixed; /* Фиксируем подвал */ bottom: 0; /* Прижимаем к нижнему краю */ left: 0; width: 100%; /* На всю ширину экрана */ }
+ /*Navigation*/
+.menu2 {list-style:none; margin:0; padding:0}
+.menu2 li {border:1px solid blue; margin-bottom:10px; padding:5px; border-radius:10px}
+.menu2 a {text-decoration:none; color:#191970}
+/*Filling*/
+img[align=left] {margin-right:20px} 
+img[align=right] {margin-left:20px} 
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+   border: 1px solid grey;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+   border: 1px solid grey;
+}
+/* границы ячеек тела таблицы */
+td {
+   border: 1px solid grey;
+}
+
+ 
